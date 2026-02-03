@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Ingresso • Last Game Festival</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="form-container">
+  <h1>Confirme sua presença 🎟</h1>
+
+  <form id="gameForm">
+    <input type="text" name="entry.1389787083" placeholder="Seu nome" required>
+
+    <h3>Escolha os jogos</h3>
+
+    <div class="games-grid">
+
+      <label class="game-card selected locked">
+        <img src="assets/images/lol.png">
+        <span>League of Legends</span>
+        <input type="checkbox" checked disabled>
+      </label>
+
+      <label class="game-card selected locked">
+        <img src="assets/images/l4d.jpg">
+        <span>Left 4 Dead</span>
+        <input type="checkbox" checked disabled>
+      </label>
+
+      <label class="game-card"><img src="assets/images/terraria.png"><span>Terraria</span><input type="checkbox" value="Terraria"></label>
+      <label class="game-card"><img src="assets/images/escadona.jpg"><span>Escadona Lucky Block</span><input type="checkbox" value="Escadona Lucky Block"></label>
+      <label class="game-card"><img src="assets/images/peak.jpg"><span>Peak</span><input type="checkbox" value="Peak"></label>
+      <label class="game-card"><img src="assets/images/zomboid.jpg"><span>Project Zomboid</span><input type="checkbox" value="Project Zomboid"></label>
+      <label class="game-card"><img src="assets/images/crabgame.jpg"><span>Crab Game</span><input type="checkbox" value="Crab Game"></label>
+      <label class="game-card"><img src="assets/images/witchit.jpg"><span>Witch It</span><input type="checkbox" value="Witch It"></label>
+      <label class="game-card"><img src="assets/images/muck.jpg"><span>Muck</span><input type="checkbox" value="Muck"></label>
+      <label class="game-card"><img src="assets/images/theforest.png"><span>The Forest</span><input type="checkbox" value="The Forest"></label>
+      <label class="game-card"><img src="assets/images/eurotruck.png"><span>Euro Truck Simulator</span><input type="checkbox" value="Euro Truck Simulator"></label>
+      <label class="game-card"><img src="assets/images/fallguys.jpg"><span>Fall Guys</span><input type="checkbox" value="Fall Guys"></label>
+
+    </div>
+
+    <input type="hidden" name="entry.401732738" id="games">
+
+    <button type="submit">Liberar Ingresso 🎮</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
